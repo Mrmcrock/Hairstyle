@@ -1,0 +1,17 @@
+.header{
+	display: flex;
+	background-color: blue;
+	border: 2px solid red;
+}
+.menu a {
+	text-transform: none;
+	color: ccc;
+}
+.menu .active{
+	opacity: 0.8;
+}
+.menu a:hover{
+	color: #ccc;
+	opacity: 0.8;
+}
+
