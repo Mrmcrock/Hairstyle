@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #4c8f96;
+}
+
+footer p {
+  color: #fff;
+  font-size: 12px;
+	letter-spacing: 0.05em;
+}
