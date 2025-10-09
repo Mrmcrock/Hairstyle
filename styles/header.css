@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: #4c8f96;
+}
+#header-container {
+  width: 900px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  background-color: #1a1e33;
+  padding: 30px 25px;
+  color: #fff;
+  font-size: 60px;
+  font-family: "Ar";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  background-color: #1b2130;
+  border-radius: 6px;
+}
+.menu a.active {
+  background-color: #335f64;
+}
+.menu a:hover {
+  color: #ccc;
+}
+.menu a:not(.last) {
+  margin-right: 20px;
+}
