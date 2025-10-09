@@ -1,7 +1,10 @@
 .header{
 	display: flex;
-	background-color: blue;
-	border: 2px solid red;
+	background-color: #4c8f96;
+}
+.menu{
+	display: flex;
+	justify-content: center;
 }
 .menu a {
 	text-transform: none;
@@ -13,5 +16,14 @@
 .menu a:hover{
 	color: #ccc;
 	opacity: 0.8;
+}
+.content{
+	display: flex;
+	justify-content: center;
+	border: 1px solid #4c8f96;
+}
+.text-container{
+	display: flex;
+	align-items: center;
 }
 
