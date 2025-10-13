@@ -1,0 +1,49 @@
+body {
+  background-color: #ededed;
+}
+main {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+main div {
+  width: 900px;
+}
+main div h2 {
+  color: #2f394e;
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+}
+.row1, .row2, .row3, .row4 {
+  display: flex;
+  margin: 25px 0px;
+}
+.row4 {
+  margin-bottom: 0px;
+}
+.row5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.row1 a, .row2 a, .row3 a, .row4 a {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+	padding: 5px 5px 29px;
+  margin-right: 15px;
+}
+.row5 a {
+  color: #464646;;
+}
+.row5 a:hover {
+  color: #252525;;
+}
+.row1 a:last-child, .row2 a:last-child, .row3 a:last-child, .row4 a:last-child {
+  margin-right: 0px;
+}
+.row1 a img, .row2 a img, .row3 a img, .row4 a img {
+	display: block;
+	padding: 0;
+}
