@@ -1,23 +1,4 @@
-.header{
-	display: flex;
-	background-color: #4c8f96;
-}
-.menu{
-	display: flex;
-	justify-content: center;
-}
-.menu a {
-	text-transform: none;
-	color: ccc;
-}
-.menu .active{
-	opacity: 0.8;
-}
-.menu a:hover{
-	color: #ccc;
-	opacity: 0.8;
-}
-.content{
+.content1{
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
@@ -34,4 +15,52 @@
 .text-container h1{
 	
 }
-
+.column-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;;
+}
+.column1, .column2, .column3, .column4{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.column1{
+	margin-left: 200px;
+}
+.column4{
+	margin-left: 30px;
+	margin-right: 150px;
+}
+.column1 img, .column2 img, .column3 img, .column4 img{
+	border: 4px solid #4c8f96;
+	border-radius: 6px;
+}
+.column1 p, .column2 p, .column3 p, .column4 p{
+	width: 75%;
+}
+.column1 a, .column2 a, .column3 a, .column4 a{
+	color: black;
+}
+.text{
+	margin-left: 30px;
+}
+.text h4{
+	margin-left: 50px;
+}
+.h4{
+	display: flex;
+	justify-content: center;
+}
+.big-content{
+	border: 4px solid #4c8f96;
+	border-radius: 6px;
+	width: 65%;
+}
+.h4-container{
+	background-color: #1a1e33;
+	height: `20px;
+	width: 24%;
+}
+.h4 h4{
+	color: #fff;
+}
