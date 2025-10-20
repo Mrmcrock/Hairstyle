@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serf;
+  font-size: 14px;
+  margin: 0; 
+  background: #ededed;
+}
+.main-content{
+	display: flex;
+	justify-content: center;
+	
+}
+.main-content-container{
+	width: 900px;
+	margin-top: 25px;
+}
+.header-title h3, .widget1 h3, .widget2 h3, .widget3 h3, .widget4 h3 {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: #2f394e;
+	font-weight: normal;
+}
+.widget1 p, .widget2 p, .widget3 p, .widget4{
+	color: #787878;
+	margin-top: 30px;
+}
+.widget4{
+	padding-bottom: 180px;
+}
+
